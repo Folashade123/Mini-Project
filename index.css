@@ -4,11 +4,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
 body {
-    background-color: brown;
-   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 251);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
 }
+
+   
 
 .registration {
     position: absolute;
@@ -16,6 +23,7 @@ body {
     left: 10%;
     right: 10%;
     bottom: 10%;
+    color: black;
 
 }
 
